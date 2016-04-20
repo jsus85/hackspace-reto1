@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
   res.send('Mi primer servidor!');
 })
 
-
+/* usuarios */
 var generarUsuario = function(){
 
   var randomName = faker.name.findName();
@@ -50,6 +50,8 @@ var generarPosts = function(){
   }
 
 }
+
+
 
 app.get('/posts', function (req, res) {
 
